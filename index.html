@@ -7,48 +7,58 @@
     <title>Golden</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <!-- logo -->
       <a class="header-logo" href="index.html">Golden</a>
       <!-- navigation -->
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+      <nav class="header-nav">
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-link" href="index.html">Home</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="#services">Services</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="#">Portfolio</a>
+          </li>
+          <li class="header-item"><a class="header-link" href="#">About</a></li>
+          <li class="header-item">
+            <a class="header-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
-    <main>
+    <main class="main">
       <!-- services section -->
-      <section>
-        <h1 id="services">Services</h1>
-        <ul>
+      <section class="hero">
+        <h1 class="hero-title" id="services">Services</h1>
+        <ul class="hero-list">
           <!-- E-Commerce -->
-          <li>
+          <li class="hero-item">
             <img src="./img/icon-1.png" alt="icon 1" />
-            <h3>E-Commerce</h3>
-            <p>
+            <h3 class="hero-subtitle">E-Commerce</h3>
+            <p class="hero-desc">
               Proin iaculis purus consequat sem cure digni ssim. Donec
               porttitora entum suscipit aenean rhoncus posuere odio in
               tincidunt.
             </p>
           </li>
           <!-- Responsive Web -->
-          <li>
+          <li class="hero-item">
             <img src="./img/icon-2.png" alt="icon 2" />
-            <h3>Responsive Web</h3>
-            <p>
+            <h3 class="hero-subtitle">Responsive Web</h3>
+            <p class="hero-desc">
               Proin iaculis purus consequat sem cure digni ssim. Donec
               porttitora entum suscipit aenean rhoncus posuere odio in
               tincidunt.
             </p>
           </li>
           <!-- Web Security -->
-          <li>
+          <li class="hero-item">
             <img src="./img/icon-3.png" alt="icon 3" />
-            <h3>Web Security</h3>
-            <p>
+            <h3 class="hero-subtitle">Web Security</h3>
+            <p class="hero-desc">
               Proin iaculis purus consequat sem cure digni ssim. Donec
               porttitora entum suscipit aenean rhoncus posuere odio in
               tincidunt.
@@ -57,20 +67,36 @@
         </ul>
       </section>
       <!-- contact section -->
-      <section>
-        <h2 id="contact">Contact us</h2>
-        <form>
-          <label>
-            <input type="text" name="user-name" placeholder="your Name *" />
+      <section class="contact">
+        <h2 class="contact-title" id="contact">Contact us</h2>
+        <form class="contact-form">
+          <label class="contact-label">
+            <input
+              class="contact-input"
+              type="text"
+              name="user-name"
+              placeholder="your Name *"
+            />
           </label>
-          <label>
-            <input type="email" name="user-email" placeholder="your e-mail *" />
+          <label class="contact-label">
+            <input
+              class="contact-input"
+              type="email"
+              name="user-email"
+              placeholder="your e-mail *"
+            />
           </label>
-          <label>
-            <input type="text" name="user-subject" placeholder="subject" />
+          <label class="contact-label">
+            <input
+              class="contact-input"
+              type="text"
+              name="user-subject"
+              placeholder="subject"
+            />
           </label>
-          <label>
+          <label class="contact-label">
             <textarea
+              class="form-comment"
               name="user-messange"
               cols="30"
               rows="10"
