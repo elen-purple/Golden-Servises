@@ -3,13 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
     <title>Golden</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:wght@400;700&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="header">
       <!-- logo -->
-      <a class="header-logo" href="index.html">Golden</a>
+      <a class="header-logo" href="./index.html">Golden</a>
       <!-- navigation -->
       <nav class="header-nav">
         <ul class="header-list">
@@ -36,7 +42,7 @@
         <ul class="hero-list">
           <!-- E-Commerce -->
           <li class="hero-item">
-            <img src="./img/icon-1.png" alt="icon 1" />
+            <img class="hero-img" src="./img/icon-1.png" alt="icon 1" />
             <h3 class="hero-subtitle">E-Commerce</h3>
             <p class="hero-desc">
               Proin iaculis purus consequat sem cure digni ssim. Donec
@@ -46,7 +52,7 @@
           </li>
           <!-- Responsive Web -->
           <li class="hero-item">
-            <img src="./img/icon-2.png" alt="icon 2" />
+            <img class="hero-img" src="./img/icon-2.png" alt="icon 2" />
             <h3 class="hero-subtitle">Responsive Web</h3>
             <p class="hero-desc">
               Proin iaculis purus consequat sem cure digni ssim. Donec
@@ -56,7 +62,7 @@
           </li>
           <!-- Web Security -->
           <li class="hero-item">
-            <img src="./img/icon-3.png" alt="icon 3" />
+            <img class="hero-img" src="./img/icon-3.png" alt="icon 3" />
             <h3 class="hero-subtitle">Web Security</h3>
             <p class="hero-desc">
               Proin iaculis purus consequat sem cure digni ssim. Donec
@@ -96,14 +102,14 @@
           </label>
           <label class="contact-label">
             <textarea
-              class="form-comment"
+              class="contact-comment"
               name="user-messange"
               cols="30"
               rows="10"
               placeholder="Your message *"
             ></textarea>
           </label>
-          <button type="submit">Send Message</button>
+          <button class="contact-button" type="submit">Send Message</button>
         </form>
       </section>
     </main>

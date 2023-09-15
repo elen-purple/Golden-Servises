@@ -6,5 +6,159 @@
   --light-grey: #cccccc;
   --grey: #bbbbbb;
   --dark-grey: #777777;
-  --black: #000000;
+  --black: #222222;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header {
+}
+
+.header-logo {
+  color: var(--yellow);
+  text-align: center;
+  font-family: Bilbo Swash Caps;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: 1.3px;
+}
+
+.header-nav {
+}
+
+.header-list {
+}
+
+.header-item {
+}
+
+.header-link {
+  color: var(--yellow);
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2.93;
+  text-transform: uppercase;
+}
+
+.main {
+}
+
+.hero {
+}
+
+.hero-title {
+  color: var(--black);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.88; /* 187.5% */
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+.hero-list {
+}
+
+.hero-item {
+}
+
+.hero-img {
+}
+
+.hero-subtitle {
+  color: var(--black);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 4, 17;
+  letter-spacing: -0.45px;
+}
+
+.hero-desc {
+  color: var(--dark-grey);
+  text-align: center;
+  font-family: RobotoSlab;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.35px;
+}
+
+.contact {
+  background-color: var(--black);
+}
+
+.contact-title {
+  color: var(--white);
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+.contact-form {
+}
+
+.contact-label {
+}
+
+.contact-input {
+  background-color: var(--white);
+  border: solid 1px var(--light-grey);
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.35px;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.contact-input::placeholder {
+  color: var(--grey);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.35px;
+  text-transform: uppercase;
+}
+
+.contact-comment {
+  background-color: var(--white);
+  border: solid 1px var(--light-grey);
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.35px;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.contact-comment::placeholder {
+  color: var(--grey);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.35px;
+  text-transform: uppercase;
+}
+
+.contact-button {
+  color: var(--white);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: var(--yellow);
+  border: none;
+  padding: 16px 45px 27px 45px;
+  border-radius: 3px;
 }
