@@ -9,6 +9,8 @@
   --black: #222222;
 }
 
+/* general styles */
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -20,6 +22,13 @@ a {
 ul {
   list-style-type: none;
 }
+
+.container {
+}
+
+/* classes styles */
+
+/* header */
 
 .header {
 }
@@ -52,8 +61,12 @@ ul {
   text-transform: uppercase;
 }
 
+/* main */
+
 .main {
 }
+
+/* hero */
 
 .hero {
 }
@@ -94,6 +107,8 @@ ul {
   font-weight: 400;
   letter-spacing: -0.35px;
 }
+
+/* contact */
 
 .contact {
   background-color: var(--black);
